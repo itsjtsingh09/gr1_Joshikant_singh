@@ -10,4 +10,4 @@ createCourse = async (req, res) => {
   }
 };
 
-module.exports = {createCourse};
+module.exports = createCourse;
