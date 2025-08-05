@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const courseCtrl = require("../controllers/courseController");
+const createCourse = require("../controllers/courseController");
 
-router.post("/", courseCtrl.createCourse);
+router.post("/", createCourse);
 
 module.exports = router;
 
